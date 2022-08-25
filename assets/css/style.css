@@ -20,7 +20,19 @@ header
     height: 25vh;
     border-bottom: 1px solid rgb(255, 255, 255);
     border-radius: 0 0 15px 15px;
+    animation-name: bg-header;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 
+}
+
+@keyframes bg-header {
+    from{
+        background-color: rgb(7, 255, 73);
+    }
+    to{
+        background-color: rgb(3, 45, 255);
+    }
 }
 
 .navbar
