@@ -41,17 +41,20 @@
           </div>
           <!-- menu -->
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#" onclick="changeContent('aboutMe.html')">Giới thiệu</a>
+            <ul class="navbar-nav d-flex justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item" onclick="changeContent('introduction.html')">
+                <a class="nav-link" aria-current="page" href="#" >Introduction</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Project</a>
+              <li class="nav-item" onclick="changeContent('project.html')">
+                <a class="nav-link" href="#">Projects</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" onclick="changeContent('CV.html')">
+                <a class="nav-link" aria-current="page" href="#" >CV</a>
+              </li>
+              <li class="nav-item" onclick="changeContent('Blog.html')">
                 <a class="nav-link" href="#">Blog</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" onclick="changeContent('contact.html')">
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
@@ -61,10 +64,10 @@
     </nav>
   </header>
   <main>
-    <iframe id="frame" src="aboutMe.html" frameborder="0"></iframe>
+    <iframe id="frame" src="introduction.html" frameborder="0"></iframe>
 
   </main>
-  <script src="main.js"></script> 
+  <script src="assets/js/main.js"></script> 
 </body>
 
 </html>

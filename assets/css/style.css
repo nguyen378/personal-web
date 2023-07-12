@@ -5,7 +5,9 @@
 }
 
 /* common */
-
+.icon-fontsize{
+    font-size: 45px;
+}
 
 /* end commmon */
 
@@ -39,6 +41,10 @@ header {
     border: 2px solid rgb(1, 1, 1);
     border-radius: 50%;
     width: 150px;
+}
+
+.navbar-nav{
+    width: max-content;
 }
 
 .navbar-nav .nav-item {
