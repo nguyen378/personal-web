@@ -103,12 +103,30 @@ main iframe {
     border-radius: 15px 15px 0 0;
 }
 
-.container-fluid .table {
+
+.container-fluid h4  {
     width: 90%;
 }
-.container-fluid .table a {
-    target: 'blank';
+
+.container-fluid .table td{
+    border: 1px solid #ddd;
 }
-
-
+th:nth-child(1),td:nth-child(1) {
+    width: 65px; 
+}
+th:nth-child(2),td:nth-child(2) {
+    width: 240px; 
+}
+th:nth-child(3),td:nth-child(3) {
+    width: 145px; 
+}
+th:nth-child(4),td:nth-child(4) {
+    width: 140px;
+}
+td:nth-child(4){
+    text-align: center;
+}
+th:nth-child(5),td:nth-child(5) {
+    width: 525px; 
+}
 /* end main */
