@@ -59,7 +59,8 @@ header {
 }
 
 .navbar-nav .nav-item .nav-link {
-    font-size: 35px;
+    font-size: 1.25rem;
+    height: fit-content;
 }
 
 
